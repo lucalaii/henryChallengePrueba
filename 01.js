@@ -13,7 +13,7 @@ function soloNumeros(array) {
   // Tu código aca:
       var nuevoArray = [];
       array.forEach(elem => {
-        if(elem.typeof(Number)){
+        if(typeof elem === "number"){
           nuevoArray.push(elem);
         }
       });
